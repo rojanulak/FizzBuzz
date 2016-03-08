@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingInterview", "CodingInterview\CodingInterview.csproj", "{3964F91F-9E42-4D38-BB6C-5A980A488F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLib", "FizzBuzzLib\FizzBuzzLib.csproj", "{6089815B-C15D-45E4-84A2-51B5434AC62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzUnitTest", "FizzBuzzUnitTest\FizzBuzzUnitTest.csproj", "{4F84FB31-785C-4CCF-9609-364952B513A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F338F97E-1BBA-4898-A391-68511CF44B29}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		fizzbuzz.build = fizzbuzz.build
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{E55CF5DE-4EE6-45D9-B666-F254A110112E}"
+	ProjectSection(SolutionItems) = preProject
+		Build.proj = Build.proj
+		.build\MSBuild.Community.Tasks.dll = .build\MSBuild.Community.Tasks.dll
+		.build\MSBuild.Community.Tasks.targets = .build\MSBuild.Community.Tasks.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3964F91F-9E42-4D38-BB6C-5A980A488F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3964F91F-9E42-4D38-BB6C-5A980A488F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3964F91F-9E42-4D38-BB6C-5A980A488F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3964F91F-9E42-4D38-BB6C-5A980A488F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6089815B-C15D-45E4-84A2-51B5434AC62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6089815B-C15D-45E4-84A2-51B5434AC62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6089815B-C15D-45E4-84A2-51B5434AC62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6089815B-C15D-45E4-84A2-51B5434AC62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F84FB31-785C-4CCF-9609-364952B513A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F84FB31-785C-4CCF-9609-364952B513A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F84FB31-785C-4CCF-9609-364952B513A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F84FB31-785C-4CCF-9609-364952B513A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
